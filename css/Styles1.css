@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    background-image: url("theater2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+
+}
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 500px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(124, 87, 35);
+
+}
+.container h1{
+    color:rgb(10, 9, 9);
+    font-size:xx-large ;
+    text-align: center;
+    padding: 0 0 10px;
+    border-bottom: 2px soild brown;
+ 
+}
+.container form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    /*box-shadow: 10px 10px 15px blueviolet;*/
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 1px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+    background-color: rgb(163, 99, 31);
+    border: none;
+    border-radius: 10px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #c6a2a2;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+.input-control{
+
+    font-size: medium;
+    border-width: 1em;
+}
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #18d05f;
+}
+
+.input-control.error input {
+    border-color:red;
+}
+
+.input-control .error {
+    color: red;
+    font-size: 9px;
+    height: 13px;
+
+}
+.login_link{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(16, 14, 14);
+}
+.login_link a{
+    color: rgb(31, 30, 29);
+    text-decoration: none;
+}
+.login_link{
+    color: rgb(14, 11, 11);
+}
+.login_link a:hover{
+    text-decoration: none;
+}
